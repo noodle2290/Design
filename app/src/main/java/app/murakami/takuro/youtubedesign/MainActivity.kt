@@ -8,9 +8,24 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     val movieData: List<Moviedata> = listOf(
-        Moviedata(R.drawable.ranking,R.drawable.randy,"ランキングダンジョン","ランディー・1400回"),
-        Moviedata(R.drawable.ranking,R.drawable.randy,"ランキングダンジョン","ランディー・1400回"),
-        Moviedata(R.drawable.ranking,R.drawable.randy,"ランキングダンジョン","ランディー・1400回")
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回"),
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回"),
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回"),
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回"),
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回"),
+        Moviedata(R.drawable.vlog1,R.drawable.randy,"東北一週VLOG","ランディー・1700回"),
+        Moviedata(R.drawable.tech,R.drawable.randy,"[Life is Tech]Leaders研修","ランディー・1400回"),
+        Moviedata(R.drawable.vlog2,R.drawable.randy,"四国一周VLOG","ランディー・100回")
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
